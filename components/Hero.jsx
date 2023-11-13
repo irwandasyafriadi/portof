@@ -33,7 +33,7 @@ const Hero = () => {
                 {/* image */}
                 <div className="hidden xl:flex relative">
                     <div className="">
-                            <DevImg containerStyles='bg-hero1 w-[510px] h-[462px]  relative '/>
+                            <DevImg containerStyles=' w-[400px] h-[200px]  ' imgSrc='/hero/hero2.png' className='' />
                     </div>
                 </div>
             </div>
