@@ -1,4 +1,7 @@
 import React from "react";
+import { Slider } from "@/components/ui/slider";
+
+
 const About = () => {
     
     return (
@@ -9,8 +12,6 @@ const About = () => {
                 <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 
                 text-center xl:text-left">
                     <div className='section-title' >Tim Kami </div>
-                {/* button */}
-             
 
                 </div>
                 {/* image */}
@@ -18,6 +19,10 @@ const About = () => {
                     <div className="">
                     </div>
                 </div>
+            </div>
+            <div>
+            <Slider defaultValue={[33]} max={100} step={1} />
+
             </div>
             {/* icons */}
          
