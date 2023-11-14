@@ -13,7 +13,8 @@ import DevImg from "./DevImg";
 import Badge from "./Badge";
 
 const Hero = () => {
-    return <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 ">
+    return (
+        <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none">
         <div className="container mx-auto">
             <div className="flex justify-between gap-x-8">
                 {/* text */}
@@ -33,7 +34,6 @@ const Hero = () => {
                 {/* image */}
                 <div className="hidden xl:flex relative">
                     <div className="">
-                            <DevImg containerStyles=' w-[400px] h-[200px]  ' imgSrc='/hero/hero2.png' className='' />
                     </div>
                 </div>
             </div>
@@ -43,6 +43,8 @@ const Hero = () => {
             </div>
         </div>
     </section>
+    );
+   
 };
 
 export default Hero ;
