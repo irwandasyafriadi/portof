@@ -1,6 +1,6 @@
-import React from "react";
-import { Slider } from "@/components/ui/slider";
-
+'use client';
+import Image from "next/image";
+import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const About = () => {
     
@@ -21,7 +21,6 @@ const About = () => {
                 </div>
             </div>
             <div>
-            <Slider defaultValue={[33]} max={100} step={1} />
 
             </div>
             {/* icons */}
