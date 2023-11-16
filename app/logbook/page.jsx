@@ -94,7 +94,7 @@ const Contact = () => {
                         <TableCell>10</TableCell>
                         <TableCell className="font-medium">Pelaksanaan penelitian di Taman Mini Indonesia Indah</TableCell>
                         <TableCell className='text-center'>18 Oktober 2023</TableCell>
-                        <TableCell className="text-right w-[300px]"><img src="/logbook/dok-tmii.jpg" alt="" srcset="" /></TableCell>
+                        <TableCell className="text-right w-[300px] "><img src="/logbook/dok-tmii.jpg" className="rounded-sm" /></TableCell>
                     </TableRow>
 
                     <TableRow >
