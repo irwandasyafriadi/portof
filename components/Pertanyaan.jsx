@@ -18,6 +18,9 @@ const Pertanyaan = () => {
                     <AccordionTrigger>Is it accessible?</AccordionTrigger>
                     <AccordionContent>
                               Yes. It adheres to the WAI-ARIA design pattern.
+                              <div>
+                                <img src="/reviews/avatar-1.png" alt="" srcset="" />
+                              </div>
                     </AccordionContent>
                  </AccordionItem>
                  <AccordionItem value="item-2">

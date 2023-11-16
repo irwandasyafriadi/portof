@@ -48,9 +48,12 @@ const Projects = () => {
                         </div>
                     </CardHeader>
                     <CardContent className='text-center mx-auto'>
-                        <CardTitle>
+                        <CardTitle className='mb-4'>
                             {item.title}
                         </CardTitle>
+                        <CardDescription className=''>
+                            {item.description}
+                        </CardDescription>
                     </CardContent>
                 </Card>
             })}
